@@ -1,0 +1,67 @@
+# Memory Management Core
+mem0ai==0.1.25
+embedchain==0.1.114
+
+# LLM Providers
+openai==1.57.2
+anthropic==0.40.0
+google-generativeai==0.8.3
+
+# Data Models and Validation
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Database and Storage
+sqlite3
+sqlalchemy==2.0.36
+alembic==1.13.3
+redis==5.2.1
+chromadb==0.5.23
+
+# Vector Operations
+numpy==2.2.1
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+
+# Async Support
+asyncio
+aiofiles==24.1.0
+asyncpg==0.29.0
+
+# HTTP and API
+httpx==0.28.1
+requests==2.32.3
+fastapi==0.115.6
+uvicorn==0.32.1
+
+# Utilities and Logging
+loguru==0.7.2
+python-dotenv==1.0.1
+typer==0.15.1
+rich==13.9.4
+tqdm==4.67.1
+
+# Data Processing
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+
+# Configuration Management
+pyyaml==6.0.2
+toml==0.10.2
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+pytest-mock==3.14.0
+
+# Development Tools
+black==24.10.0
+isort==5.13.2
+mypy==1.14.0
+flake8==7.1.1
+
+# Optional: Additional vector stores
+# qdrant-client==1.7.0
+# weaviate-client==3.25.3
+# pinecone-client==2.2.4
+
