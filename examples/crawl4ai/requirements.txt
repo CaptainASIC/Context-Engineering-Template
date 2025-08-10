@@ -1,0 +1,23 @@
+# Crawl4AI Examples Requirements
+# Install with: pip install -r requirements.txt
+
+# Core crawling library
+crawl4ai>=0.3.0
+
+# FastAPI backend dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Additional utilities
+psutil>=5.9.0
+python-multipart>=0.0.6
+
+# Optional: For LLM extraction (requires OpenAI API key)
+openai>=1.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+
